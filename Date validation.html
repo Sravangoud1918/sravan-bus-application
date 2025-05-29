@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./date validated.html">
+        <label for="date">Enter Date (dd-mm-yyyy):</label>
+        <input type="text" id="date" name="date"
+         pattern="^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-(19|20)\d{2}$"
+         placeholder="dd-mm-yyyy" required><br><br>
+         <button type="submit">Submit</button>
+         <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
